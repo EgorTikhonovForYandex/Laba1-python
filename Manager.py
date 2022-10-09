@@ -11,8 +11,8 @@ from Professor import Professor
 from Group import Group
 
 
-class Manager(Group ):
-    
+class Manager(Group):
+
     def parseInXMLStudent(self) -> None:
         data = ET.Element('Students')
 
